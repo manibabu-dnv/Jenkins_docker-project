@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-# webhook testt
+# webhook test
 FROM node:lts-alpine
 WORKDIR /app
 COPY . .
