@@ -13,10 +13,5 @@ pipeline {
                 sh 'docker image tag manibabudnv/todo-app:v$BUILD_ID manibabudnv/todo-app:latest'
             }
         }
-        stage("Image Push") {
-            steps {
-                
-            }
-        }
     }
 }
