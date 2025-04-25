@@ -8,7 +8,7 @@ const deleteItem = require('./routes/deleteItem');
 
 app.use(express.json());
 app.use(express.static(__dirname + '/static'));
-
+// mani babu bhosadiwala
 app.get('/items', getItems);
 app.post('/items', addItem);
 app.put('/items/:id', updateItem);
