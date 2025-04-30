@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-#final testttuday
+#final test
 FROM node:lts-alpine
 WORKDIR /app
 COPY . .
